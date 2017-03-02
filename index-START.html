@@ -9,7 +9,7 @@
   <style>
     html {
       box-sizing: border-box;
-      background:#ffc600;
+      background:#f5f5f5;
       font-family:'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -64,7 +64,20 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 1px solid red;
+    }
+
+    .panel > *:fir st-child {
+      transform: translateY(-100%);
+    }
+    .panel.open-active > *:first-child {
+      transform: translateY(0);
+    }
+
+    .panel > *:last-child {
+      transform: translateY(100%);
+    }
+    .panel.open-active > *:last-child {
+      transform: translateY(0);
     }
 
     .panel p {
