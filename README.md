@@ -9,7 +9,8 @@
 
 ## Learnings
 
-*
+* New Function!  fetch()  will work to get info from a .json file!
+  no need for a callback fetch(endpoint, function(data) {console.log(data)}) because it returns a promisem you can use .then() after .fetch()
 
 
 
