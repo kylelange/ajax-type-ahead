@@ -10,9 +10,13 @@
 ## Learnings
 
 * New Function!  fetch()  will work to get info from a .json file!
-  no need for a callback fetch(endpoint, function(data) {console.log(data)}) because it returns a promisem you can use .then() after .fetch()
+  no need for a callback fetch(endpoint, function(data) {console.log(data)}) because it returns a promise you can use .then() after .fetch()
 
+* get your data first via console.log, then work on displaying it/hooking it up to event listeners.
 
+* .join() allows information in an object to be displayed without a comma between. (no need to concatinate)
+
+8 
 
 ## Setup/Installation Requirements
 
